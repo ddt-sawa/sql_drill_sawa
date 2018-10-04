@@ -1,4 +1,4 @@
-/*4-4 問4 以下は、アクセス記録テーブル(access_log)に対して、既存のreferer列の定義を
+﻿/*4-4 問4 以下は、アクセス記録テーブル(access_log)に対して、既存のreferer列の定義を
 「データ型VARCHAR(200)、NULL値を許可」で置き換えるためのSQL命令ですが、
 2点誤りがあります。誤りを指摘してください。*/
 
@@ -30,3 +30,7 @@ ALTER COLUMN
 	--参照元URLのNULL値を許可
 	referer DROP NOT NULL
 ;
+
+/*
+ALTER TABLE
+*/
