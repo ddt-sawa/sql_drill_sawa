@@ -26,3 +26,6 @@ OR
 	referer IS NULL
 ;
 	
+/*
+DELETE 15
+*/
