@@ -1,4 +1,4 @@
-/*4-1 問4 書籍情報テーブル(books)を新規に作成してみましょう。。*/
+﻿/*4-1 問4 書籍情報テーブル(books)を新規に作成してみましょう。。*/
 
 --作成するテーブル名
 CREATE TABLE
@@ -22,7 +22,11 @@ CREATE TABLE
 		PUBLISH_DATE DATE,
 		
 		--分類ID(固定長5文字)
-		CATEGORY_ID CHAR(5),
+		CATEGORY_ID CHAR(5)
 		
 	)
 ;
+
+/*
+CREATE TABLE
+*/

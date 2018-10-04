@@ -1,4 +1,4 @@
-/*4-1 問3 月間売上テーブル(sales)を新規に作成してみましょう。*/
+﻿/*4-1 問3 月間売上テーブル(sales)を新規に作成してみましょう。*/
 
 --作成するテーブル名
 CREATE TABLE
@@ -19,3 +19,7 @@ CREATE TABLE
 		PRIMARY KEY (SHOP_ID, SALES_MONTH)
 	)
 ;
+
+/*
+CREATE TABLE
+*/
