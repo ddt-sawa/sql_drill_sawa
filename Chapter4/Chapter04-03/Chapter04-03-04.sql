@@ -1,4 +1,4 @@
-/*4-3 問4 ユーザテーブル(usr)のf_name_kana列の後方に以下の2列を追加してみましょう。
+﻿/*4-3 問4 ユーザテーブル(usr)のf_name_kana列の後方に以下の2列を追加してみましょう。
 ・sex列(VARCHAR(5)型、デフォルト値は男)
 ・job列(VARCHAR(30)型)
 PostgresSQLは追加位置の指定ができないので、最高尾に追加*/
@@ -22,3 +22,6 @@ ADD
 	job VARCHAR(30)
 ;
 
+/*
+ALTER TABLE
+*/
