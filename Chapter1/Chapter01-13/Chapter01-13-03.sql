@@ -1,4 +1,4 @@
-/*1-13 問3 アクセス記録テーブル(access_log)からリンク元ごとのアクセス数を求め、
+﻿/*1-13 問3 アクセス記録テーブル(access_log)からリンク元ごとのアクセス数を求め、
 10件未満を「C」、10件以上50件未満を「B」、50件以上を「A」とする「ランク」列を取得してみましょう。
 また、データはアクセス数が3件以上のものを多い順に並べるものとします。*/
 
@@ -50,3 +50,14 @@ ORDER BY
 	--アクセス数が多い順
 	Count(*) DESC
 ;
+
+/*
+          referer          | count | ランク
+---------------------------+-------+--------
+ http://wings.msn.to/hamu/ |   100 | A
+ http://wings.msn.to/neko/ |    11 | B
+ http://wings.msn.to/saru/ |     4 | C
+ http://wings.msn.to/kame/ |     3 | C
+ http://wings.msn.to/tori/ |     3 | C
+ http://wings.msn.to/inu/  |     3 | C
+*/
