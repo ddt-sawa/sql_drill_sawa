@@ -28,7 +28,7 @@ AND
 --ソート方法
 ORDER BY
 
-	--返却日を降順
+	--貸出日を降順
 	rental_date DESC
 ;
 
